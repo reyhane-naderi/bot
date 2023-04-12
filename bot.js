@@ -3,7 +3,7 @@ const fs = require('fs');
 const answers = require('./answers.json');
 
 // تعریف توکن بات
-const token = '6086911614:AAG1AO_k5cIVVceEigoMjeFXg6nEUDXK5o8';
+const token = '';
 
 // ایجاد شیء بات با استفاده از توکن
 const bot = new TelegramBot(token, { polling: true });
